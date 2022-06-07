@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product CRUD test with steps","Update the user information and verify the updated information","FAILURE","2022-06-06T16:21:03.767+01:00[Europe/London]","0.0","0.39"
+"Product CRUD test with steps","Delete the product and verify if the product has been deleted","FAILURE","2022-06-06T16:21:04.182+01:00[Europe/London]","0.0","0.26"

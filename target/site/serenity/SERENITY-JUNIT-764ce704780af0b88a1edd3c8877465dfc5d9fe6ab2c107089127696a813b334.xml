@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="2" name="ui.swagger.bestbuyapiplaygroundinfo.ProductCRUDTest" skipped="0" tests="4" time="8.47" timestamp="2022-06-07T11:48:39.324+01:00[Europe/London]"><testcase classname="ui.swagger.bestbuyapiplaygroundinfo.ProductCRUDTest" name="This test will create a new product"/><testcase classname="ui.swagger.bestbuyapiplaygroundinfo.ProductCRUDTest" name="Verify the product was added to the application"><error message="java.util.ArrayList cannot be cast to java.util.HashMap" type="java.lang.ClassCastException">java.util.ArrayList cannot be cast to java.util.HashMap</error><system-err>java.util.ArrayList cannot be cast to java.util.HashMap&#13;
+ui.swagger.bestbuyapiplaygroundinfo.ProductCRUDTest.test002(ProductCRUDTest.java:77)&#13;
+</system-err></testcase><testcase classname="ui.swagger.bestbuyapiplaygroundinfo.ProductCRUDTest" name="Update the product information to the application and verify"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+ui.swagger.bestbuyapiplaygroundinfo.ProductCRUDTest.test003(ProductCRUDTest.java:106)&#13;
+</system-err></testcase><testcase classname="ui.swagger.bestbuyapiplaygroundinfo.ProductCRUDTest" name="Delete the product and verify if the product has been deleted"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+ui.swagger.bestbuyapiplaygroundinfo.ProductCRUDTest.test004(ProductCRUDTest.java:130)&#13;
+</system-err></testcase></testsuite>
